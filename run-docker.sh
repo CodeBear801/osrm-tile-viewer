@@ -1,0 +1,1 @@
+docker run -dit --name osrm-tile-viewer -p 8099:80 -v /home/mapuser/perryliu/osrm-tile-viewer/osrm-tile-viewer/:/usr/local/apache2/htdocs/ httpd:2.4
