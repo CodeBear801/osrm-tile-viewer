@@ -5,7 +5,7 @@ routing graph that's stored in memory.
 
 Tiles can be retrieved from `osrm-routed` at URLs like this:
 
-  http://localhost:5000/tile?tz=12&tx=656&ty=1582
+  http://127.0.0.1:5000/tile/v1/car/tile(1321,3177,13).mvt
 
 This tool is a simple HTML viewer that uses [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/)
 to make a slippy map to view the tiles in a browser.
